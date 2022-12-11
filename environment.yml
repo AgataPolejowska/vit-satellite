@@ -1,0 +1,31 @@
+name: vit-geo
+channels:
+  - pytorch
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pywin32
+  - pytorch
+  - torchvision
+  - git
+  - pip
+  - pip:
+    - datasets
+    - transformers
+    - huggingface-hub
+    - wandb
+    - pillow
+    - seaborn
+    - opencv-python
+    - ipython
+    - psutil
+    - scikit-image
+    - black
+    - black-nbconvert
+    - pytest
+    - roboflow
+    - ipywidgets
+    - scikit-learn
+    - plotly-express
